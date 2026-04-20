@@ -9,19 +9,5 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        tools:targetApi="31" >
-
-        <meta-data
-            android:name="xposedmodule"
-            android:value="true" />
-        <meta-data
-            android:name="xposeddescription"
-            android:value="@string/app_desc" />
-        <meta-data
-            android:name="xposedminversion"
-            android:value="101" />
-        <meta-data
-            android:name="xposedscope"
-            android:resource="@array/xposedscope" />
-    </application>
+        tools:targetApi="31" />
 </manifest>
