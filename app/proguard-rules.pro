@@ -32,19 +32,8 @@
 -keepattributes SourceFile,LineNumberTable
 -optimizations !code/simplification/cast,!field/*,!class/merging/*
 -keep public class me.bingyue.fuckbiliads.MainHook
--keep public class me.bingyue.fuckbiliads.GetBiliiliVersion {
-public static int *(de.robv.android.xposed.callbacks.XC_LoadPackage$LoadPackageParam);
-}
--keep public class me.bingyue.fuckbiliads.HookAD {
-public static void *(de.robv.android.xposed.callbacks.XC_LoadPackage$LoadPackageParam);
-}
 -keepclassmembers class me.bingyue.fuckbiliads.MainHook {
     public <init>();
     public <init>(...);
 }
--keepclassmembers class me.bingyue.fuckbiliads.GetBiliiliVersion {
-    public <init>();
-    public <init>(...);
-}
--keep class * extends de.robv.android.xposed.XC_MethodHook { *; }
 -dontwarn javax.lang.model.element.Modifier
